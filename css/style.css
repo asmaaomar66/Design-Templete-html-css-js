@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1150px;
+    margin: auto;
+}
+/*** header section ***/
+.header {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(83, 13, 118, 0.823);
+}
+.header .heading {
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    border-right: 1px solid #a7a5a5;
+}
+.header .heading h2 {
+    width: 49%;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #fff;
+}
+.header .heading h2 span:hover {
+    color: #00BC8A;
+    cursor: pointer;
+}
+.header .Lorem {
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 8%;
+    float: left;
+}
+.header .Lorem p {
+    font-family: Arial;
+    color: #a7a5a5;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.header .Lorem button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    background: #00BC8A;
+    padding: 15px;
+    border-radius: 50px;
+    width: 300px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
