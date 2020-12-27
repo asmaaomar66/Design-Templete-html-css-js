@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Open+Sans|Arial|Montserrat|Shadows+Into+Light&display=swap">
-    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
     </head>
     <body>
         <!-- header section -->
@@ -19,6 +19,57 @@
                 <button id="btn" onmousemove="HoverButton()" onmouseout="Hover()">Get Started</button>
             </div>
         </div>
+        </div>
+        <!-- second section -->
+        <div class="Magna">
+            <div class="container">
+                <div class="learn">
+                    <h2>Magna feugiat adipiscing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos reprehenderit ab laudantium adipisci ducimus placeat.</p>
+                    <button onclick="show()" ondblclick="hide()">learn more</button>
+                </div>
+                <div class="more" id="btn1">
+                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                </div>
+            </div>
+        </div>
+        <!-- third section -->
+        <div class="gallary">
+            <div class="container">
+                <div class="part">
+                    <img src="images/pic01.jpg"  onmouseout="Hovered()"/>
+                    <div class="details">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime voluptatibus qui, odio, pariatur provident sint error</p>
+                        <button>Details</button>
+                        <p>You hovered : <span id="img1"></span></p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="part">
+                    <img src="images/pic02.jpg" onmouseout="Hover()"/>
+                    <div class="details">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime voluptatibus qui, odio, pariatur provident sint error</p>
+                        <button>Details</button>
+                        <p>You hovered : <span id="img2"></span></p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="part">
+                    <img src="images/pic03.jpg" onmouseout="Hove()" />
+                    <div class="details">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime voluptatibus qui, odio, pariatur provident sint error</p>
+                        <button>Details</button>
+                        <p>You hovered : <span id="img3"></span></p>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="js/script.js"></script>
     </body>

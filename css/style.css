@@ -1,10 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    height: 4000px;
 }
 .container {
     width: 1150px;
     margin: auto;
+}
+.clear {
+    clear: both;
 }
 /*** header section ***/
 .header {
@@ -52,4 +56,103 @@ body {
     text-transform: uppercase;
     outline: none;
     cursor: pointer;
+}
+/*** second section ***/
+.Magna {
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid darkgray;
+    padding-top: 6%;
+}
+.Magna .learn {
+    width: 50%;
+    float: left;
+    border-right: 2px solid #DDD;
+}
+.Magna .learn h2 {
+    color: #777;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.Magna .learn p {
+    line-height: 1.9;
+    font-family: Arial;
+    color: #888;   
+}
+.Magna .learn button {
+    border: none;
+    background: #fff;
+    border: 1px solid #DDD;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    color: #888;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+.more {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    visibility: hidden;
+}
+.more p {
+    line-height: 2;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+}
+.more i {
+    padding-right: 25px;
+    color: #00BC8A;
+}
+/*** third section ***/ 
+.gallary {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #fbfbfb;
+}
+.gallary .part {
+    padding-bottom: 50px;
+    height: 350px;
+}
+.gallary .part img {
+    width: 40%;
+    float: left;
+}
+.gallary .part .details {
+    width: 40%;
+    float: left;
+    padding-left: 8%;
+    padding-top: 6%;
+}
+.gallary .part .details h2 {
+    color: #777;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.gallary .part .details p {
+    color: #888;
+    font-weight: bold;
+    font-family: Arial;
+    line-height: 2;
+}
+.gallary .part .details button {
+    background-color: #fff;
+    border: 1px solid #DDD;
+    width: 200px;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.gallary .part .details button:hover {
+    background-color: #00BC8A;
+    color: #fff;
 }
