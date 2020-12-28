@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 4000px;
 }
 .container {
     width: 1150px;
@@ -153,6 +152,112 @@ body {
     cursor: pointer;
 }
 .gallary .part .details button:hover {
+    background-color: #00BC8A;
+    color: #fff;
+}
+/*** forth section ***/
+.contact {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contact .inputs {
+    width: 50%;
+    float: left;
+    border-right: 2px solid #DDD;
+}
+.contact .inputs h2 {
+    font-family: Arial;
+    color: #777;
+}
+.contact .inputs p {
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 2;
+    color: #888;
+}
+.contact .inputs input[type=text] , input[type=email]
+{
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 8px;
+    outline: none;
+}
+.contact .inputs textarea {
+    width: 525px;
+    padding-left: 15px;
+}
+.contact .inputs input[type=submit] {
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #DDD;
+    padding: 15px;
+    margin-top: 2%;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #666;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact .inputs input[type=submit]:hover {
+    background-color: #00BC8A;
+    color: #fff;
+}
+.contact .links {
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.contact .links p {
+    line-height: 2.5;
+    cursor: pointer;
+}
+.contact .links p i {
+    padding-right: 25px;
+    color: #00BC8A;
+    cursor: pointer;
+}
+/*** footer ***/ 
+.footer {
+    width: 100%;
+    height: auto;
+    border-top:1px solid #DDD ;
+}
+.footer p {
+    text-align: center;
+    line-height: 150px;
+    font-family: Arial;
+    color: #777;
+    font-size: 15px;
+    font-weight: normal;
+}
+/*** valid page ***/ 
+.click{
+   width: 100%;
+   height: auto;
+   margin-top: 20%;
+   text-align: center;
+}
+.click button {
+    background-color: #f0eded;
+    color: #666;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border: 1px soild #DDD;
+}
+.click button:hover{
     background-color: #00BC8A;
     color: #fff;
 }

@@ -26,3 +26,15 @@ function Hove () {
     r = r+1 ; 
     document.getElementById("img3").innerHTML = r ;
 }
+function colored() {
+    document.getElementById("color").style.color = "#00BC8A" ;
+    document.getElementById("color").style.textDecoration = "underline" ;
+}
+function valid() {
+    var t = prompt("Name ..");
+    if( t == "Asmaa") {
+        window.location = "index.html" 
+    }else {
+        alert("Wrong..!!");
+    }
+}

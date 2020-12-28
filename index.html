@@ -1,76 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Design Templete</title>
+
+<head>
+    <title>Design Templete</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Open+Sans|Arial|Montserrat|Shadows+Into+Light&display=swap">
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    </head>
-    <body>
-        <!-- header section -->
-        <div class="header">
-            <div class="container">
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <div class="container">
             <div class="heading">
                 <h2>Welcome to prism, a free responsive site template by <span>TEMPLATED</span></h2>
             </div>
             <div class="Lorem">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum quas repudiandae officia. Libero fuga cumque magnam! Minima, doloribus!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum quas repudiandae officia. Libero
+                    fuga cumque magnam! Minima, doloribus!</p>
                 <button id="btn" onmousemove="HoverButton()" onmouseout="Hover()">Get Started</button>
             </div>
         </div>
+    </div>
+    <!-- second section -->
+    <div class="Magna">
+        <div class="container">
+            <div class="learn">
+                <h2>Magna feugiat adipiscing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos reprehenderit ab
+                    laudantium adipisci ducimus placeat.</p>
+                <button onclick="show()" ondblclick="hide()">learn more</button>
+            </div>
+            <div class="more" id="btn1">
+                <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+                <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+            </div>
         </div>
-        <!-- second section -->
-        <div class="Magna">
-            <div class="container">
-                <div class="learn">
-                    <h2>Magna feugiat adipiscing</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos reprehenderit ab laudantium adipisci ducimus placeat.</p>
-                    <button onclick="show()" ondblclick="hide()">learn more</button>
+    </div>
+    <!-- third section -->
+    <div class="gallary">
+        <div class="container">
+            <div class="part">
+                <img src="images/pic01.jpg" onmouseout="Hovered()" />
+                <div class="details">
+                    <h2>Ipsum pharetra tempus</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime
+                        voluptatibus qui, odio, pariatur provident sint error</p>
+                    <button>Details</button>
+                    <p>You hovered : <span id="img1"></span></p>
                 </div>
-                <div class="more" id="btn1">
-                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
-                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
-                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
-                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
-                    <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+            </div>
+            <div class="clear"></div>
+            <div class="part">
+                <img src="images/pic02.jpg" onmouseout="Hover()" />
+                <div class="details">
+                    <h2>Ipsum pharetra tempus</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime
+                        voluptatibus qui, odio, pariatur provident sint error</p>
+                    <button>Details</button>
+                    <p>You hovered : <span id="img2"></span></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="part">
+                <img src="images/pic03.jpg" onmouseout="Hove()" />
+                <div class="details">
+                    <h2>Ipsum pharetra tempus</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime
+                        voluptatibus qui, odio, pariatur provident sint error</p>
+                    <button>Details</button>
+                    <p>You hovered : <span id="img3"></span></p>
                 </div>
             </div>
         </div>
-        <!-- third section -->
-        <div class="gallary">
-            <div class="container">
-                <div class="part">
-                    <img src="images/pic01.jpg"  onmouseout="Hovered()"/>
-                    <div class="details">
-                        <h2>Ipsum pharetra tempus</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime voluptatibus qui, odio, pariatur provident sint error</p>
-                        <button>Details</button>
-                        <p>You hovered : <span id="img1"></span></p>
-                    </div>
-                </div>
-                <div class="clear"></div>
-                <div class="part">
-                    <img src="images/pic02.jpg" onmouseout="Hover()"/>
-                    <div class="details">
-                        <h2>Ipsum pharetra tempus</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime voluptatibus qui, odio, pariatur provident sint error</p>
-                        <button>Details</button>
-                        <p>You hovered : <span id="img2"></span></p>
-                    </div>
-                </div>
-                <div class="clear"></div>
-                <div class="part">
-                    <img src="images/pic03.jpg" onmouseout="Hove()" />
-                    <div class="details">
-                        <h2>Ipsum pharetra tempus</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem quia soluta vel, maxime voluptatibus qui, odio, pariatur provident sint error</p>
-                        <button>Details</button>
-                        <p>You hovered : <span id="img3"></span></p>
-                    </div>
-                </div>
+    </div>
+    <!-- forth section -->
+    <div class="contact">
+        <div class="container">
+            <div class="inputs">
+                <h2>Orci malesuade</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, cupiditate impedit accusantium quis
+                    commodi </p>
+                <form>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email">
+                    <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send Message" />
+                </form>
+            </div>
+            <div class="links">
+                <p id="color"><i class="fa fa-twitter" onclick="colored()"></i>twitter.com/untitled-tld</p>
+                <p><i class="fa fa-facebook"></i>facebook.com/untitled-tld</p>
+                <p><i class="fa fa-instagram"></i>instagram.com/untitled-tld</p>
+                <p><i class="fa fa-envelope"></i>information.com/untitled-tld</p>
+                <p><i class="fa fa-home"></i>1234 untitled-tld 9823</p>
             </div>
         </div>
-        <script src="js/script.js"></script>
-    </body>
+    </div>
+    <!-- footer section -->
+    <div class="footer">
+        <div class="container">
+            <p>&copy; Untitled . All Rights Reserved. Images : Unsplash. Design : TEMPLATED </p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
